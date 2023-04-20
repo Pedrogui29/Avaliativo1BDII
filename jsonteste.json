@@ -1,0 +1,16 @@
+{
+  "id": "26526p6p3c4898645c6e36b7",
+  "nome": "Gi",
+  "especie": "Onca",
+  "idade": 9,
+  "habitat": {
+    "id": "61626d6e3c4813343e6c36b7",
+    "nome": "Savana",
+    "tipoAmbiente": "Africana",
+    "cuidador": {
+      "id": "61626d6e3c4813343e6c36b8",
+      "nome": "Matheus Vilas Boas",
+      "documento": "131.206.796-90"
+    }
+  }
+}

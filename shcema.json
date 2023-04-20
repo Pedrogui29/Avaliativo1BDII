@@ -1,0 +1,75 @@
+[{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "id",
+      "nome",
+      "especie",
+      "idade",
+      "habitat"
+    ],
+    "properties": {
+      "id": {
+        "bsonType": "objectId",
+        "description": "Deve ser um objectId"
+      },
+      "nome": {
+        "bsonType": "string",
+        "description": "Deve ser uma string"
+      },
+      "especie": {
+        "bsonType": "string",
+        "description": "Deve ser uma string"
+      },
+      "idade": {
+        "bsonType": "int",
+        "description": "Deve ser um inteiro"
+      },
+      "habitat": {
+        "bsonType": "object",
+        "required": [
+          "id",
+          "nome",
+          "tipoAmbiente",
+          "cuidador"
+        ],
+        "properties": {
+          "id": {
+            "bsonType": "objectId",
+            "description": "Deve ser um objectId"
+          },
+          "nome": {
+            "bsonType": "string",
+            "description": "Deve ser uma string"
+          },
+          "tipoAmbiente": {
+            "bsonType": "string",
+            "description": "Deve ser uma string"
+          },
+          "cuidador": {
+            "bsonType": "object",
+            "required": [
+              "id",
+              "nome",
+              "documento"
+            ],
+            "properties": {
+              "id": {
+                "bsonType": "objectId",
+                "description": "Deve ser um objectId"
+              },
+              "nome": {
+                "bsonType": "string",
+                "description": "Deve ser uma string"
+              },
+              "documento": {
+                "bsonType": "string",
+                "description": "Deve ser uma string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}]
